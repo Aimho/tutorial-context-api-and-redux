@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { ITodoItem, useTodoDispatch } from "../contexts/TodoContext";
+import { TTodoItem, useTodoDispatch } from "../contexts/TodoContext";
 
 const StyledTodoItem = styled.li`
   &.TodoItem {
@@ -19,20 +19,20 @@ const StyledTodoItem = styled.li`
   }
 `;
 
-function TodoItem(props: ITodoItem) {
+function TodoItem(props: TTodoItem) {
   const dispatch = useTodoDispatch();
 
   const onToggle = () => {
     dispatch({
       type: "TOGGLE",
-      id: props.id
+      id: props.id,
     });
   };
 
   const onRemove = () => {
     dispatch({
       type: "REMOVE",
-      id: props.id
+      id: props.id,
     });
   };
 

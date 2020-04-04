@@ -14,10 +14,9 @@ You will also see any lint errors in the console.
 
 ### Tutorial Context API & Redux
 
-velopert 블로그 - 리액트 프로젝트에서 타입스크립트 사용하기 5,6 실습 <br/>
-https://velog.io/@velopert/series/react-with-typescript
+[velopert 블로그](https://velog.io/@velopert/series/react-with-typescript) - 리액트 프로젝트에서 타입스크립트 사용하기 5,6 실습
 
-#### Ducks 패턴?
+#### Tutorial Memo
 
 redux code는 [Ducks패턴](https://github.com/erikras/ducks-modular-redux)을 사용함
 
